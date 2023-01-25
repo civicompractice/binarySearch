@@ -1,6 +1,18 @@
 
 //finding out largest min distance
 //Time Complexity O(N*log(n))
+// Problem Statement: There is a new barn with N stalls and C cows. 
+// The stalls are located on a straight line at positions x1,….,xN (0 <= xi <= 1,000,000,000). 
+//     We want to assign the cows to the stalls, such that the minimum distance between any two of them is as large as possible. 
+//     What is the largest minimum distance?
+
+// Examples:
+
+// Input: No of stalls = 5 
+//        Array: {1,2,8,4,9}
+//        And number of cows: 3
+
+// Output: One integer, the largest minimum distance 3
 
 class Cows {
     public static boolean isPossible(int[] location, int cows, int dist) {
